@@ -1,5 +1,3 @@
-const { cyan } = require("colorette");
-
 class LoginPage {
   get loginLink() {
     return cy.get("a[href='/login']");
