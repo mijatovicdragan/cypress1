@@ -1,5 +1,5 @@
-const { cyan } = require("colorette");
 const locators = require("../fixtures/locators.json");
+
 describe("login tests", () => {
   it("login without email address", () => {
     cy.visit("/");

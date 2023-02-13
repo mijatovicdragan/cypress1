@@ -1,8 +1,8 @@
 import { loginPage } from "../page_objects/loginPage";
 
 const credentials = {
-  email: "filip_nedovic@epam.com",
-  password: "Test12345",
+  email: "vivify11@test.com",
+  password: "dragan123",
 };
 
 describe("login tests", () => {
